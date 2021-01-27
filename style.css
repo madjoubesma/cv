@@ -41,7 +41,7 @@ header{
 .c_txt span h1
 {
   color: var(--primary-purple);
-  font-size:7vh;
+  font-size:7vw;
   display: inline;
   padding-left:10vw;
 
@@ -455,7 +455,7 @@ footer{
     }
     .c_txt span h1
     {
-      font-size:10vh;
+      font-size:6em;
       animation: none;
       padding: 0;
     } 
@@ -464,11 +464,12 @@ footer{
         padding: 0;
     }
     .c_txt h1 {
-        font-size: 10vh;
+        font-size: 4em;
         padding: 0;
     }
     .p_txt h3
   {
+    font-size: 1em;
       text-align: center;
       padding-left: 0;
   }
@@ -564,6 +565,9 @@ animation: none;
   padding-bottom: 2vh;
 }
 .links{
+  display: none;
+}
+.scroll{
   display: none;
 }
 
